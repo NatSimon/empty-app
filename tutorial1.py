@@ -12,21 +12,21 @@ black = Color(0x000000, 1.0)
 
 # Define a line style that is a thin (1 pixel) wide black line
 thinline = LineStyle(5, black)
-thick = LineStyle(20, red)
+thicc = LineStyle(20, red)
 # A graphics asset that represents a rectangle
 rectangle = RectangleAsset(1000, 500, thinline, blue)
 Circle2 = CircleAsset(300, thinline,black)
 Circle = CircleAsset(100, thinline,red)
 Ellipse = EllipseAsset(230,35, thinline, green)
 Ellipse2 = EllipseAsset(230,35, thinline, black)
-Polygon = PolygonAsset(100, thick, red)
+Polygon = PolygonAsset((100,0),(50,24), thicc, red)
 # Now display a rectangle
 Sprite(rectangle)
 Sprite(Circle2)
 Sprite(Circle)
 Sprite(Ellipse2, (320,320))
 Sprite(Ellipse, (300,300))
-Sprite(Polygon, (500,300))
+Sprite(Polygon)
 
 
 myapp = App()
