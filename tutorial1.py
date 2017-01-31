@@ -24,7 +24,7 @@ Sprite(rectangle)
 Sprite(Circle2)
 Sprite(Circle)
 Sprite(Ellipse, (300,300))
-Sprite(Ellipse2, (400,400))
+Sprite(Ellipse2, (350,350))
 
 
 myapp = App()
