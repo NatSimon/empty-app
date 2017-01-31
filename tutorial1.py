@@ -19,7 +19,7 @@ Circle = CircleAsset(100, thinline,red)
 
 # Now display a rectangle
 Sprite(rectangle)
-Sprite2(Circle)
+Sprite(Circle2)
 Sprite(Circle)
 
 
