@@ -22,7 +22,7 @@ Ellipse = EllipseAsset(230,35, thinline, green)
 Sprite(rectangle)
 Sprite(Circle2)
 Sprite(Circle)
-Sprite(Ellipse(300,300))
+Sprite(Ellipse, (100,20))
 
 
 myapp = App()
