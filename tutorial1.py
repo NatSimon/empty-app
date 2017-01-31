@@ -14,12 +14,12 @@ black = Color(0x000000, 1.0)
 thinline = LineStyle(5, black)
 # A graphics asset that represents a rectangle
 rectangle = RectangleAsset(1000, 500, thinline, blue)
-Circle = CircleAsset(300, thinline,black)
+Circle2 = CircleAsset(300, thinline,black)
 Circle = CircleAsset(100, thinline,red)
 
 # Now display a rectangle
 Sprite(rectangle)
-Sprite(Circle)
+Sprite2(Circle)
 Sprite(Circle)
 
 
