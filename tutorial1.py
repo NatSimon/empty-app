@@ -17,12 +17,14 @@ rectangle = RectangleAsset(1000, 500, thinline, blue)
 Circle2 = CircleAsset(300, thinline,black)
 Circle = CircleAsset(100, thinline,red)
 Ellipse = EllipseAsset(230,35, thinline, green)
+Ellipse2 = EllipseAsset(230,35, thinline, black)
 
 # Now display a rectangle
 Sprite(rectangle)
 Sprite(Circle2)
 Sprite(Circle)
-Sprite(Ellipse, (100,20))
+Sprite(Ellipse, (300,300))
+Sprite(Ellipse2, (400,400))
 
 
 myapp = App()
