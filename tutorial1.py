@@ -16,7 +16,7 @@ thinline = LineStyle(5, black)
 rectangle = RectangleAsset(1000, 500, thinline, blue)
 Circle2 = CircleAsset(300, thinline,black)
 Circle = CircleAsset(100, thinline,red)
-Ellipse = EllipseAsset(230, thinline, green)
+Ellipse = EllipseAsset(230,35 thinline, green)
 
 # Now display a rectangle
 Sprite(rectangle)
