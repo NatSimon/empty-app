@@ -24,7 +24,7 @@ Polygon = PolygonAsset(((10,70,), (30,50),(60,60)), thicc, red)
 rectangle2 = RectangleAsset(100, 300, thicc, red)
 Polygon2 = PolygonAsset(((10,70,), (30,5),(90,60)), thicc, blue)
 Polygon3 = PolygonAsset(((10,70,), (30,5),(90,60)), thinline, blue)
-Circle3 = CircleAsset(300, thicc,blue)
+Circle3 = CircleAsset(30, thicc,blue)
 # Now display a rectangle
 Sprite(rectangle)
 Sprite(Circle2)
