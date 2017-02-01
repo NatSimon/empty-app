@@ -19,7 +19,8 @@ Circle2 = CircleAsset(300, thinline,black)
 Circle = CircleAsset(100, thinline,red)
 Ellipse = EllipseAsset(230,35, thinline, green)
 Ellipse2 = EllipseAsset(230,35, thinline, black)
-Polygon = PolygonAsset((100,0),(50,24), thicc, red)
+Polygon = PolygonAsset(((10,70,), (30,50),(60,60)), thicc, red)
+rectangle2 = RectangleAsset(100, 300, thicc, red)
 # Now display a rectangle
 Sprite(rectangle)
 Sprite(Circle2)
@@ -27,7 +28,7 @@ Sprite(Circle)
 Sprite(Ellipse2, (320,320))
 Sprite(Ellipse, (300,300))
 Sprite(Polygon)
-
+Sprite(rectangle2, (400,400))
 
 myapp = App()
 myapp.run()
