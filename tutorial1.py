@@ -30,7 +30,7 @@ Sprite(Ellipse2, (320,320))
 Sprite(Ellipse, (300,300))
 Sprite(Polygon)
 Sprite(rectangle2, (400,400))
-Sprite(Polygon2, (500,500))
+Sprite(Polygon2, (300,500))
 
 myapp = App()
 myapp.run()
